@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ship Displacement Histograms</title>
+    <script type="module" src="scripts\d3_script.js" defer></script>
+    <link rel="stylesheet" href="styles\styles.css">
+</head>
+<body>
+    <h1>Ship Data Analysis</h1>
+    <h3>Task 1:</h3>
+    <p>Here I will be creating two histograms of the displacement of Japanese and United States ships to understand displacement distribution</p>
+    <div id="histograms"></div>
+    <p>Histograms of displacement distribution of Japanese and U.S. ships shows the concentration of Japanese ships below 15,000 tons and the wider range of the U.S. fleet with two peaks at about 10,000 and between 25,000–40,000 tons.</p>
+    <h3>Task 2:</h3>
+    <p>Here I will be creating bar charts for different ship types to understand length-to-beam ratio differences</p>
+    <div id="chart"></div>
+    <p>This bar chart compares the mean LBR for Carriers, Battleships, and Cruisers. The error bars represent the interquartile range and the Cruisers have the largest mean LBR and, thus, are the sleekest. The Battleships have the lowest mean LBR and are the widest relative to their length and the error bars suggest there is a large variation in the LBR for all ship types, but especially for Cruisers.</p>
+    <h3>Task 3:</h3>
+    <p>Here I will be creating Bar chart for the top 20 ship clasess</p>
+    <div id="chart2"></div>
+    <p>The bar chart shows the top 20 ship classes in terms of the number of ships. Casablanca-class Escort Carrier has the highest count, followed by Essex-class Aircraft Carrier and Independence-class Light Carrier. These reflect the high volume of production for escort and light carriers, probably due to their strategic value during World War II.</p>
+    <h3>Task 4:</h3>
+    <p>Here, I am going to create a scatter plot showing the LBR against the ship displacement for different ship classes. This will enable us to find some sort of pattern or correlation that could not be so evident among these dimensions.</p>
+    <div id="chart3"></div>
+    <p>The scatter plot visualizes the relationship between Length-to-Beam Ratio and displacement for various ship classes. The higher displacements tend to congregate around the lower LBR values, indicating that they are generally wider and less sleek. Outliers, such as a ship with extremely high LBR, suggest unique design characteristics or specialized roles.</p>
+</body>
+</html>
